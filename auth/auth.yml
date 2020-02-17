@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    driverClassName: org.postgresql
+    password: 1234
+    url: jdbc:postgresql://localhost:5432/autenticacao
+    username: postgres
+    hikari:
+      connectionTimeout: 20000
+      maximumPoolSize: 5
+  jpa:
+    hibernate:
+      ddl-auto: create
